@@ -1,0 +1,35 @@
+version: BUILD{build}
+
+image: Visual Studio 2019
+shallow_clone: true
+
+configuration:
+- Debug
+- Release
+
+before_build:
+  - nuget restore
+
+build:
+  project:Nuclear
+  parallel: true
+  verbosity: minimal
+
+artifacts:
+- path: Bin
+  name: binaries
+NuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclearNuclear
+
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
+Nuclear
